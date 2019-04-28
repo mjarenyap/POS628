@@ -1,0 +1,67 @@
+/* main stylesheet */
+
+@import url(organisms/quick-start.css);
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../assets/fonts/Rubik-Regular.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'Rubik-Bold';
+	src: url('../assets/fonts/Rubik-Bold.ttf') format("truetype");
+}
+
+:root{
+	--main-blue: #12befd;
+	--main-purple: #9e77f3;
+	--main-pink: #ff3e8e;
+	--main-black: #3B3E42;
+	--main-gray: #49505B;
+	--main-pale: #f5f5f5;
+	--line-color: #DEDEDE;
+
+	font-family: 'Rubik';
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Rubik-Bold';
+	color: var(--main-black);
+	margin: 0;
+	padding: 0;
+}
+
+/* paragraphs */
+p {
+	color: var(--main-gray);
+	margin: 0;
+	padding: 0;
+}
+
+/* buttons */
+button {
+	background-color: white;
+	border-radius: 0.4em;
+	color: var(--main-gray);
+	padding: 0.6em 1em;
+	font-size: 0.9em;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: thin solid var(--line-color);
+	font-family: 'Rubik';
+	box-shadow: 0px 2px 5px var(--main-pale);
+	transition: ease all 0.1s;
+	outline: none;
+}
+
+button:hover {
+	border-color: var(--main-pink);
+	color: var(--main-pink);
+}

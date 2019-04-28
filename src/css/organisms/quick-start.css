@@ -1,0 +1,44 @@
+/*
+quick start stylesheet
+---
+
+<section id="quick-start">
+	<h1 class="heading">Quick Start</h1>
+	<p class="subheading">Welcome to Retailman POS</p>
+	<br/>
+	<button class="option">Day-to-day Transactions</button>
+	<button class="option">Sales Report</button>
+	<button class="option">Inventory Management</button>
+</section>
+*/
+
+section#quick-start {
+	width: 25em;
+	margin: auto;
+	padding: 0 3em;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+section#quick-start div.content-wrapper {
+	margin: 20% auto;
+}
+
+section#quick-start h1.heading {
+	font-size: xx-large;
+	text-align: left;
+}
+
+section#quick-start p.subheading {
+	color: var(--main-gray);
+	text-align: left;
+}
+
+section#quick-start button.option {
+	width: 100%;
+	padding: 1em 1em;
+	margin-bottom: 1em;
+	text-align: left;
+}
